@@ -1,0 +1,19 @@
+<package>
+  <description brief="Orogen Driver to get the data streamed by the motoman driver.">
+  The motoman driver back.
+  </description>
+  <author>Gabriel Alcantara/gabriel.alcantara@13robotics.comm</author>
+  <license></license>
+  <url>http://</url>
+  <logo>http://</logo>
+  <depend package="base/cmake" />
+  <!--
+   To add any dependencies use the depend tag
+  <depend package="dummy-dependency-0" />
+	...
+  <depend package="dummy-dependency-n-1" />
+  <depend package="dummy-dependency-n" />
+  -->
+  <depend package="base/types" />
+  <depend package="drivers/motoman_mh12" />
+</package>
